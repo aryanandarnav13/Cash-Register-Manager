@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+:root {
+  --primary-color: #011854;
+  --secondary-color: #c6c7b9;
+}
+small {
+  color: var(--primary-color);
+}
+h2 {
+  color: var(--primary-color);
+}
+input {
+  margin: 0.2rem;
+  padding: 0.5rem 1rem;
+  color: var(--primary-color);
+}
+.container {
+  padding: 0rem 1rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+button {
+  padding: 0.3rem 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+  background-color: var(--secondary-color);
+  cursor: pointer;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  text-align: center;
+  margin: auto;
+  padding: 0.2rem 0.5rem;
+}
+th {
+  background-color: #7996e0;
+}
+td {
+  background-color: var(--secondary-color);
+}
